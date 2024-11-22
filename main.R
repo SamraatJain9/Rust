@@ -1,10 +1,9 @@
-2 + 3
-10 / 2
-a <- sqrt(16)
+txt <- "awesome"
+my_func <- function() {
+    txt <<- "fantastic"
+    paste("R is", txt)
+}
 
-x <- 5
-y <- 10
-z <- x + y
+my_func()
 
-print(z)
-print(a)
+paste("R is", txt)
